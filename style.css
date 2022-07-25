@@ -1,0 +1,149 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+html, 
+.back {
+    background-color: black;
+  background-repeat: repeat;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+html,
+.imagem {
+    background-image: url(./img/bandeira.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+
+#clean-form {
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-family:fantasy;
+    text-shadow: 15px 5px 5px rgb(145, 2, 2),
+                 10px 5px 5px rgb(145, 2, 2);
+}
+
+.content {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 0px;
+}
+.content-two {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 18px;
+}
+
+#encodeAction {
+width: 30%;
+height: 10%;
+background: none;
+border-radius: 5px;
+border: 0;
+cursor: pointer;
+color: rgb(255, 255, 255);
+font-size: 1rem;
+margin-top: .75rem;
+font-weight: 200;
+font-family: fantasy;
+margin-left: 40px;
+margin-top: 10px;
+text-shadow: 10px 5px 5px rgb(145, 2, 2),
+                 10px 5px 5px rgb(145, 2, 2);
+                 
+}
+
+#decodeAction {
+width: 30%;
+height: 10%;
+background: none;
+border-radius: 5px;
+border: 2px;
+cursor: pointer;
+color: white;
+font-size: 1rem;
+margin-top: 1rem;
+font-weight: 200;
+font-family:fantasy;
+margin-left: 100px;
+text-shadow: 10px 5px 5px rgb(145, 2, 2),
+                10px 5px 5px rgb(145, 2, 2);
+}
+.clear {
+    width: 30%;
+    height: 10%;
+    background: none;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: .75rem;
+    font-weight: 300;
+    font-family: fantasy;
+    margin-left: 450px;
+    margin-top: 50px;
+    text-shadow: 10px 5px 5px rgb(145, 2, 2),
+                     10px 5px 5px rgb(145, 2, 2);
+                     
+    }
+.last-input {
+    font-weight:500;
+    font-size: .75rem;
+    border-radius: 5px;
+    line-height: 50px;
+    background-color: white;
+    border: 1.5px solid color(black);
+    transition: all 0.3s;
+    padding: 8px;
+    margin-top: 38px;
+    width:20%;
+    box-sizing: border-box;
+    outline:0;
+    margin-left: 530px;
+}
+.title {
+    font-family: fantasy;
+    color: #ffffff;
+    text-shadow: 6px 3px 3px rgb(145, 2, 2), 4px 2px 2px rgb(145, 2, 2);
+    margin-left: 550px;
+    margin-top:auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 48rem){
+    .last-input {
+        padding: 0.5rem 1rem;
+    }
+
+    form {
+        margin: auto;
+    }
+    
+    .title {
+    position: relative;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+    }
