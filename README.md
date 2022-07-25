@@ -1,6 +1,6 @@
 # Levante Popular Fora Bolsonaro
 
-![alt text](/img/readmenot.png "intro")
+(/img/readmenot.png "intro")
 
 ## Introdução
 
