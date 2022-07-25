@@ -41,5 +41,5 @@ resetar.addEventListener('click', limpar);
 
 function limpar () {
 let clean = document.getElementById('clean').value;
-clean.reset() = clean;
+clean.reset() = clean
 }
