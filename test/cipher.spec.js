@@ -6,7 +6,7 @@
 
 import cipher from '../src/cipher';
 
-describe('cipher', () => {
+describe('encode', () => {
 
   it('should be an object', () => {
     expect(typeof cipher).toBe('object');
