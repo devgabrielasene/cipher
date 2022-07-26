@@ -1,9 +1,3 @@
-// [Español]
-// Importamos el objeto `cipher`, que contiene los métodos `encode` y `decode`
-//
-// [Português]
-// Importamos o objeto `cipher`, que contém os métodos `encode` e `decode`
-
 import cipher from '../src/cipher';
 
 describe('encode', () => {

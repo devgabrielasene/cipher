@@ -1,6 +1,8 @@
 const cipher = {
-encode: function encode(writing, moves) {
+encode: function encode(moves, writing) {
+  if (typeof moves !== "number" || typeof writing !== "string") throw new TypeError();
   let cripMessage = "";
+
   for (let i = 0; i < writing.length; i++) {
     let movesDone = (moves - (parseInt (moves / 26)) * 26);
 
@@ -17,7 +19,9 @@ encode: function encode(writing, moves) {
   return cripMessage;
 },
 
-decode: function decode(writing, moves) {
+decode: function decode(moves, writing) {
+  if (typeof moves !== "number" || typeof writing !== "string") throw new TypeError();
+
   let descripMessage = "";
   for (let i = 0; i < writing.length; i++) {
     let movesDone = (moves - (parseInt (moves / 26)) * 26);
