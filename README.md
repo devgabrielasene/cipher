@@ -1,6 +1,6 @@
 # Levante Popular Fora Bolsonaro
 
-(/img/readmenot.png "intro")
+[alt](/webapp.png "intro")
 
 ## Introdução
 
@@ -22,27 +22,22 @@ A lógica Cipher of Caesar desenvolvida em JavaScript é a primeira proposta de 
 
 ## Algumas considerações
 
-A intenção desse projeto acompanha uma interface simples e didática, pensando na experiência do usuário ao se deparar sozinho com essa web aplicação, por esse motivo segue uma estrutura que aponta para a sua respectiva função: no campo "Escolha seu deslocamento", o usuário vai escolher um número que indique como sua mensagem vai se deslocar para criar a criptografia. O botão "Reset" vem para auxiliar na limpeza de todos os formulários da página quando necessário, evitando que o usuário precise utilizar a barra "Backspace" para apagar letra por letra. O campo de texto "Deixe seu alerta aqui", indicando onde o usuário deve escrever a mensagem que deseja repassar. E por fim, os campos alinhados com seus respectivos botões de Criptografar e Descriptografar, aulixando o usuário a visualizar onde cada mensagem vai aparecer, baseado na escolha do botão. Essa página foi elaborada em HTML, CSS e JavaScript puro (Vanilla JS), utilizando DOM para criar um sistema de codificação e decodificação de mensagens, considerando letras maiúsculas, minúsculas, números e caracteres especiais. Abaixo, apresento a estrutura do sistema de arquivos do projeto:
+A intenção desse projeto acompanha uma interface simples e didática, pensando na experiência do usuário ao se deparar sozinho com essa web aplicação, por esse motivo segue uma estrutura que aponta para a sua respectiva função: no campo "Escolha seu deslocamento", o usuário vai escolher um número que indique como sua mensagem vai se deslocar para criar a criptografia. O botão "Reset" vem para auxiliar na limpeza de todos os formulários da página quando necessário, evitando que o usuário precise utilizar a barra "Backspace" para apagar letra por letra. O campo de texto "Deixe seu alerta aqui", indicando onde o usuário deve escrever a mensagem que deseja repassar. E por fim, os campos alinhados com seus respectivos botões de Criptografar e Descriptografar, aulixando o usuário a visualizar onde cada mensagem vai aparecer, baseado na escolha do botão. Essa página foi elaborada em HTML, CSS e JavaScript puro (Vanilla JS), utilizando DOM para criar um sistema de codificação e decodificação de mensagens, considerando letras maiúsculas, minúsculas, números e caracteres especiais. 
 
-├── .nyc_output
-├── src
-|   ├── img
-│   ├── cipher.js
-│   ├── index.js
-│   └── style.css
-├── test
-│   ├── index.spec.js
-├── index.html
-├── README.md
-├── package-lock.json
-├── package-json
+[alt](/readmenot.png "design")
 
 ## O que foi feito
 
-- [x] Elaboração de um arquivo `README.md` com imagens e explicações sobre o projeto
-- [x] Uso de VanillaJS
-- [x] Exibição do resultado correto da cifra
-- [x] Permitir a inclusão de um texto com letras maiúsculas para ser decifrado
-- [X] Mostrar o resultado decifrado corretamente
-- [X] Permitir a escolha do `offset` (deslocamento) a ser usado na cifragem/decifragem de textos
-- [x] Implementação da função única de codificação e decodificação `encode(string, offset)`
+- [x] Elaboração de um arquivo `README.md` com imagem e explicações sobre o projeto.
+- [x] Uso de VanillaJS.
+- [x] Exibição do resultado correto da cifra.
+- [x] Permitir a inclusão de um texto com letras maiúsculas para ser decifrado.
+- [X] Mostrar o resultado decifrado corretamente.
+- [X] Permitir a escolha do `offset` (deslocamento) a ser usado na cifragem/decifragem de textos.
+- [x] Permitir a inclusão de um texto com letras minúsculas, caracteres especiais e espaço para
+      cifrar e decifrar.
+- [X] Inclusão de um botão "Reset" para limpar os formulários.
+
+ ## Autora
+
+ Gabriela Sene, 24 anos, aluna do bootcamp da Laboratória - Turma SAP008 do ano de 2022. 
