@@ -1,169 +1,127 @@
-html, body{
+
+.html {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 980px;
-    display: grid;
+    font-family: fantasy;
 }
-
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-}
-html, 
 .back {
-    background-color: black;
+  background-color: black;
   background-repeat:repeat;
-  margin: 0;
-  background-position:center;
-  background-size: cover;
-  position: relative;
+  padding: 50vh;
+ 
+ 
 }
 html,
 .imagem {
     background-image: url(./img/bandeira.png);
-    background-size: 50%;
+    background-size: 40%;
     background-repeat: repeat;
 }
 
-
-
-#clean-form {
-    margin-bottom: 1rem;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 200;
+    padding: 10vh;
+    margin-right: 34vh;
+    max-width: 980px;
 }
 
-.titulo {
+.title h1 { 
+    text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     font-family:fantasy;
-    margin-left: 35%;
     width: 100%;
     text-shadow: 15px 5px 5px rgb(145, 2, 2),
                  10px 5px 5px rgb(145, 2, 2);
-}
+    flex-wrap: wrap;
 
-.content {
-    position: absolute;
-    top: 73%;
-    left: 96%;
-    width: 100%;
-    max-width: 980px;
-    min-width: 150px;
-    transform: translate(-50%, -50%);
-    padding-bottom: 0px;
 }
-.content-two {
-    position: absolute;
-    top: 100%;
-    left: 96%;
+.title h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family:fantasy;
     width: 100%;
-    max-width: 980px;
-    min-width: 150px;
-    transform: translate(-50%, -50%);
-    padding-bottom: 18px;
-}
-
-#encodeAction {
-width: 30%;
-height: 10%;
-background: none;
-border-radius: 5px;
-border: 0;
-cursor: pointer;
-color: rgb(255, 255, 255);
-font-size: 1rem;
-margin-top: .75rem;
-font-weight: 200;
-font-family: fantasy;
-margin-left: -31px;
-margin-top: 10px;
-max-width: 980px;
-min-width: 150px;
-text-shadow: 10px 5px 5px rgb(145, 2, 2),
+    text-shadow: 15px 5px 5px rgb(145, 2, 2),
                  10px 5px 5px rgb(145, 2, 2);
-                 
+    font-size: 200;
+    flex-wrap: wrap;
 }
 
-#decodeAction {
-width: 30%;
-height: 10%;
-background: none;
-border-radius: 5px;
-border: 2px;
-cursor: pointer;
-color: white;
-font-size: 1rem;
-margin-top: 1rem;
-font-weight: 200;
-font-family:fantasy;
-margin-left: -70px;
-max-width: 980px;
-min-width: 150px;
-text-shadow: 10px 5px 5px rgb(145, 2, 2),
-                10px 5px 5px rgb(145, 2, 2);
-}
-.clear {
-    width: 30%;
-    height: 10%;
-    background: none;
-    border-radius: 5px;
-    border: 0;
+.encode-input input {
+    left: 65vh;
+   
+    position: absolute;
+    bottom: 8vh;
+    width: 50vh;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    margin-top: .75rem;
-    font-weight: 300;
-    font-family: fantasy;
-    margin-left: 540px;
-    margin-top: 50px;
-    max-width: 980px;
-    min-width: 150px;
+    background: none;
+    
+    font-family:fantasy;
     text-shadow: 10px 5px 5px rgb(145, 2, 2),
-                     10px 5px 5px rgb(145, 2, 2);
-                     
-    }
+                 10px 5px 5px rgb(145, 2, 2);
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px;
+    flex-wrap: wrap;
+    
+   
+
+
+}
+.decode-input input {
+
+    
+    left: 95vh;
+    position: absolute;
+    bottom: 8vh;
+    width: 70vh;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: none;
+    border-radius: 5px;
+    font-family:fantasy;
+    text-shadow: 10px 5px 5px rgb(145, 2, 2),
+                 10px 5px 5px rgb(145, 2, 2);
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px;
+    
+}
+
 .last-input {
-    font-weight:500px;
+    position: absolute;
     font-size: .75rem;
     border-radius: 5px;
-    line-height: 50px;
     background-color: white;
-    border: 1.5px solid color(black);
-    transition: all 0.3s;
-    padding: 8px;
-    margin-top: 22px;
-    width:20%;
+    border: 3px solid color(black);
+    height: 5vh;
+    width: 50vh;
     box-sizing: border-box;
-    outline:0;
-    margin-left: 594px;
     max-width: 980px;
-    min-width: 150px;
-}
-.title {
-    font-family: fantasy;
-    color: #ffffff;
-    text-shadow: 6px 3px 3px rgb(145, 2, 2), 4px 2px 2px rgb(145, 2, 2);
-    margin-left: 580px;
-    margin-top:auto;
-    text-align: center;
-    width: 100%;
-    max-width: 980px;
-    min-width: 150px;
+    bottom: 65vh;
+    right: 84vh;
 }
 
-@media screen and (max-width: 980px){
-    .last-input {
-        padding: 0.5rem 1rem;
-    }
-
-    form {
-        margin: auto;
-    }
-    
-    .title {
-    position: relative;
-    top: 50%;
-    left: 47%;
-    transform: translate(-50%, -50%);
-}
+.clear {
+    width: 70vh;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: none;
+    border-radius: 5px;
+    font-family:fantasy;
+    text-shadow: 10px 5px 5px rgb(145, 2, 2),
+                 10px 5px 5px rgb(145, 2, 2);
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px;
     }

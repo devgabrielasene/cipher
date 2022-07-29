@@ -10,29 +10,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
+  <header class="title"><h1 style="font-size: 43px">Levante Popular Fora Bolsonaro</h1>
+    <h3> Comando Secreto</h3></header>
+
   <body>
-    <section class="cont-section">
-      <main>
-      <h1 class="titulo" style="font-size: 50px">Levante Popular Fora Bolsonaro</h1>
-        
-      <form id="complete-form">
-      <div class="content-three">
-      <label class="title" style="font-size: 30px">Comando Secreto</label>
+    <section class="flex-container">
+    <form id="complete-form">
+      <input type="reset"  id="clean" class="clear" value="Resetar">
+      <div>
       <input type="number" id="shiftEncode" class="last-input" min="0" placeholder="Escolha o deslocamento">
       </div>
-      <div class="content">
+
+      <div class="content" id="result">
       <textarea id="alertMessage" rows="10" cols="60" class="gi" placeholder="Deixe Seu Alerta Aqui"></textarea>
+      <textarea id="cripMessage" rows="7" cols="28" class="gi" placeholder="Alerta Criptografado Aqui"></textarea>
+      <textarea id="descripMessage" class="gi" rows="7" cols="28" placeholder="Alerta Descriptografado Aqui"></textarea>
       </div>
-      <section>
-      <input type="reset" id="clean" class="clear" value="Resetar">
-      </section>
-      <div class="content-two" id="result">
-      <textarea id="cripMessage" rows="7" cols="28" class="gi" placeholder="Alerta Criptografado Aqui"></textarea>  <textarea id="descripMessage" class="gi" rows="7" cols="28" placeholder="Alerta Descriptografado Aqui"></textarea><br>
-      <input type="button" id="encodeAction" value="Criptografar">      <input type="button" id="decodeAction" value="Descriptografar">
+
+      <div class="encode-input">
+      <input type="button" id="encodeAction" value="Criptografar">
       </div>
+      <div class="decode-input">
+      <input type="button" id="decodeAction" value="Descriptografar">
+      </div>
+
       </form>
-      </main>
+
       </section>
+
       <script src="index.js" type="module"></script>
   </body>
 
