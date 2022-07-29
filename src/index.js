@@ -6,8 +6,8 @@ encodeAction.addEventListener('click', criptografa);
 
 function criptografa () {
 
-    let shiftEncode = document.getElementById('shiftEncode').value;
-    let alertMessage = document.getElementById('alertMessage').value;
+    const shiftEncode = document.getElementById('shiftEncode').value;
+    const alertMessage = document.getElementById('alertMessage').value;
     let cripMessage = document.getElementById("cripMessage");
 
     if (shiftEncode == "" || alertMessage == "")  {

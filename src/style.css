@@ -1,4 +1,5 @@
 
+
 .html {
     margin: 0;
     padding: 0;
@@ -47,29 +48,29 @@ html,
 }
 .title h3 {
     text-align: center;
-    color: #ffffff;
+    color: white;
     font-family:fantasy;
     width: 100%;
-    text-shadow: 15px 5px 5px rgb(145, 2, 2),
-                 10px 5px 5px rgb(145, 2, 2);
+    text-shadow: 5px 3px 3px rgb(145, 2, 2),
+                 3px 3px 2px rgb(148, 2, 2);
     font-size: 200;
     flex-wrap: wrap;
 }
 
 .encode-input input {
-    left: 65vh;
+    left: 75vh;
    
     position: absolute;
     bottom: 8vh;
-    width: 50vh;
+    width: 30vh;
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: white;
     background: none;
     
     font-family:fantasy;
-    text-shadow: 10px 5px 5px rgb(145, 2, 2),
-                 10px 5px 5px rgb(145, 2, 2);
-    font-size: 1rem;
+    text-shadow: 8px 3px 3px rgb(145, 2, 2),
+                 8px 3px 3px rgb(145, 2, 2);
+    font-size: 1.25rem;
     border-radius: 5px;
     border: 2px;
     flex-wrap: wrap;
@@ -81,18 +82,18 @@ html,
 .decode-input input {
 
     
-    left: 95vh;
+    right: 75vh;
     position: absolute;
     bottom: 8vh;
-    width: 70vh;
+    width: 30vh;
     cursor: pointer;
     color: rgb(255, 255, 255);
     background: none;
     border-radius: 5px;
     font-family:fantasy;
-    text-shadow: 10px 5px 5px rgb(145, 2, 2),
-                 10px 5px 5px rgb(145, 2, 2);
-    font-size: 1rem;
+    text-shadow: 8px 3px 3px rgb(145, 2, 2),
+                 8px 3px 3px rgb(145, 2, 2);
+    font-size: 1.25rem;
     border-radius: 5px;
     border: 2px;
     
@@ -108,7 +109,7 @@ html,
     width: 50vh;
     box-sizing: border-box;
     max-width: 980px;
-    bottom: 65vh;
+    bottom: 70vh;
     right: 84vh;
 }
 
@@ -119,9 +120,11 @@ html,
     background: none;
     border-radius: 5px;
     font-family:fantasy;
-    text-shadow: 10px 5px 5px rgb(145, 2, 2),
-                 10px 5px 5px rgb(145, 2, 2);
-    font-size: 1rem;
+    text-shadow: 10px 5px 5px black,
+                 10px 5px 5px black;
+    font-size: 1.25rem;
     border-radius: 5px;
     border: 2px;
+    top: 31vh;
+    position: absolute;
     }
