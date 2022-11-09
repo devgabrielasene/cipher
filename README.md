@@ -1,10 +1,10 @@
-# Levante Popular Fora Bolsonaro
+# Levante Popular
 
 ![Protótipo](./webapp.png)
 
 ## Introdução
 
-A organização militante Levante Popular Fora Bolsonaro nasceu em meados de 2020, quando durante a pandemia, o atual presidente Jair Bolsonaro violou o direito à vida dos cidadãos por meio dos seus discursos e atos irresponsáveis. A organização reuniu uma parte da população que via no atual Governo, uma série de delitos e crimes de irresponsabilidade, além de outros crimes imputados a Bolsonaro que estão previstos na lei 1.079/50, conhecida como Lei do Impeachment. Apesar de muitas desaprovações com o atual Governo, existe ainda uma grande parcela que o apoia e portanto, o "megapedido" de impeachment contra Bolsonaro, não teve resultado até o presente momento. Foi partindo dessas premissas, que a Levante Popular Fora Bolsonaro, se juntou com o intuito de reunir uma série de provas concretas, documentadas e registradas que possam expor todas as irregularidades em seu mandato e derrubá-lo legalmente, do poder. Com a organização ganhando visibilidade nas redes sociais e consequentemente, apoio da população em sua missão, os militantes passaram a sofrer perseguições, ameaças, invasões hackers à seus celulares/computadores de inúmeros grupos pró-Bolsonaro, ocasionando uma enorme necessidade de segurança, tanto com suas identidades, quanto a proteção de dados e informações trocadas entre membros da organização, a fim de evitar queima de arquivo de provas conquistadas e também evitar o vazamento das suas respectivas missões. Pensando nisso, o time técnico da Levante Popular Fora Bolsonaro, criou uma ferramenta de criptografia por meio da Cifra de César para se comunicarem entre eles, possibilitando maior segurança para reuniões presenciais, atos de manifestações, possíveis alertas de risco, alertas emergênciais de movimentações internas envolvendo o Bolsonaro, entre outras necessidades que podem ser aplicadas ao uso de mensagens cifradas.
+A organização militante Levante Popular nasceu em meados de 2020, prezando a atuação de fiscalizar irresponsabilidades governamentais. A organização reuniu uma parte da população que tinha o desejo de participar ativamente dos processos visando uma nação mais justa e responsável, se reunindo com reuniões e frequências para consolidar a ideia e cumprir com responsabilidade social para que qualquer ato de corrupção viesse a público e fosse impedido de fluir em sociedade. Com a organização ganhando visibilidade nas redes sociais e consequentemente, apoio da população em sua missão, os organizadores passaram a sofrer perseguições, ameaças, invasões hackers à seus celulares/computadores de inúmeros grupos respaldados pela corrupção e que temiam a prisão, ocasionando uma enorme necessidade de segurança, tanto com suas identidades, quanto a proteção de dados e informações trocadas entre membros da organização, a fim de evitar queima de arquivo de provas conquistadas e também evitar o vazamento das suas respectivas missões. Pensando nisso, o time técnico da Levante Popular, criou uma ferramenta de criptografia por meio da Cifra de César para se comunicarem entre eles, possibilitando maior segurança para reuniões presenciais, atos de manifestações, possíveis alertas de risco, alertas emergênciais de movimentações internas envolvendo atos ilícitos, entre outras necessidades que podem ser aplicadas ao uso de mensagens cifradas.
 
 
 
@@ -40,4 +40,4 @@ A intenção desse projeto acompanha uma interface simples e didática, pensando
 
  ## Autora
 
- Gabriela Sene, 24 anos, aluna do bootcamp da Laboratória - Turma SAP008 do ano de 2022. 
+ Gabriela Sene, aluna do bootcamp da Laboratória - Turma SAP008 do ano de 2022. 
